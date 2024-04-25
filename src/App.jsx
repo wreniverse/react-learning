@@ -1,6 +1,14 @@
+function Message({msg}) {
+  return <p>{msg}</p>
+}
+
 function App() {
   return (
-    <p>Test</p>
+    <div>
+      <Message msg="Hello, world!"/>
+      <Message msg="Goodbye, world!"/>
+      <Message msg="Testing"/>
+    </div>
   )
 }
 
