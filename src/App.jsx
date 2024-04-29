@@ -1,15 +1,7 @@
-function Message({msg}) {
-  return <p>{msg}</p>
+function App(){
+	let count = 1
+	return <button onClick={() => {alert("hello")}}>
+		{count}
+	</button>
 }
-
-function App() {
-  return (
-    <div>
-      <Message msg="Hello, world!"/>
-      <Message msg="Goodbye, world!"/>
-      <Message msg="Testing"/>
-    </div>
-  )
-}
-
 export default App
